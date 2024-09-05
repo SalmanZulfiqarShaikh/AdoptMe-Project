@@ -1,0 +1,49 @@
+h2{
+    color: #FF3C38;
+}
+span{
+    color: #DA7422;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 450px;
+    margin: 10px;padding: 10px;
+    background-color: #A59132;
+}
+.card:hover{
+    box-shadow: 4px 4px 16px goldenrod;
+}
+img{
+    width: 430px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#pets{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h4{
+    text-align: center;
+    color: #A59132;
+    opacity: 75%;
+}
+body{
+    background-color:#30362F;
+}
+h1{
+    color: #FFFBDB;
+}
+h3{
+    color: black;
+}
+.rights{
+    opacity: 55%;
+}
+
+@media (max-width:375px) {
+    #pets{
+        flex-wrap: wrap;
+    }
+}
